@@ -1,0 +1,372 @@
+
+.navbar-nav{
+	margin-left: auto;
+	margin-bottom: 10px;
+	height: 80px;
+}
+
+
+.navigation-bar-list{
+	list-style-type: none;
+
+
+	margin: 1px;
+ 	padding: 1px;
+}
+li{
+	float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: black;
+  }
+
+.section1{
+    width: 100%;
+    height: auto;
+    background-color: #222;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.div_section1{ 
+    display: flex;
+/*    flex-wrap: wrap;*/
+}
+h1{
+	color: white;
+	padding-bottom: 20px;
+    font-size: 3.8em;
+}
+.section2{
+	padding-top: 100px;
+    width: auto;
+/*	width: 60%;*/
+}
+.p1{
+	color: white;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+.section3{
+    border: solid 1px;
+	border-color: yellow;
+	background-color: white;
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 250px;
+}
+.image-1{
+    max-height: 501px;
+    max-width: 334px;
+}
+.text-block{
+/*    height: 501px;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-block_1{
+/*    text-align: left;*/
+    padding-top: 20px;
+}
+.h2_1-section3{
+    text-decoration-color: black;
+}
+
+.h2_2-section3{
+    text-decoration-color: black;
+}
+
+.p-section3{
+    text-decoration-color: black;
+}
+
+.section4{
+	width: 100%;
+	background-color: #222;
+	padding-bottom: 100px;
+}
+.section4 h4, h2{
+    text-align: center;
+}
+/*
+.section4-Heading{
+	padding-top: 150px;
+	text-align: center;
+}
+*/
+h2-section4{
+	color: white;
+}
+.heading2{
+	font-weight: bold;
+}
+h4{
+
+}
+.episode_cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    flex-wrap: wrap;
+}
+.episode_1{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0C090A;
+}
+.episode_2{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0C090A;
+}
+.episode_3{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0C090A;
+}
+.episode_4{
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0C090A;
+}
+.preamble img{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.episode_title_img{
+    background-color: #555555;
+    flex: 1;
+}
+.episode_preamble{
+    height: 100%;
+    padding: 20px 10px;
+    flex: 4;
+    flex-wrap: wrap;
+    
+}
+.preamble{
+    flex: 9;
+    color: white;
+}
+.preamble p{
+    font-size: 10px;
+}
+.episode_preamble img{
+    flex: 1;
+    
+}
+.preamble a{
+    color: red;
+}
+.section5{
+	background-color: white;
+	margin: 100px;
+
+}
+.preamble h6{
+    border: solid 1px;
+    background-color: red;
+    height: auto;
+    width: 60px;
+}
+.preamble h5{
+    font-weight: bolder;
+}
+.heading3 {
+	color: black;
+    font-weight: lighter;
+}
+.heading4 {
+	color: black;
+
+}
+.heading5{
+	color: black;
+	font-weight: bold;
+}
+.text-block-section5{
+	text-align: center;
+	padding-right: 20px;
+	margin: auto;
+	width: 100%;
+
+}
+.other-platforms-buttons{
+/*	margin: 100px;*/
+    margin: auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.other-platforms-buttons a{
+    width: 20%;
+}
+.other-platforms-buttons a img{
+    width: 100%;
+}
+#google-podcast {
+/*    flex-basis: auto;*/
+}
+#apple-podcast{	
+/*	flex-basis: auto;*/
+}
+#radiopublic-Podcast{
+/*	flex-basis: auto;*/
+}
+#spotify-podcast{
+/*	flex-basis: auto;*/
+}
+.section6{
+    background-color: #222;
+}
+.section6-headings{
+    padding: 100px;
+    text-align: center;
+    color: white;
+}
+.heading6{
+    font-size: 0.8em;
+}
+.heading7{
+    
+}
+.heading8{
+    font-weight: bold;
+    color: white;
+}
+form{
+	padding: 0px 150px;
+}
+label{
+    color: white;
+}
+.form_items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form_items_namemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form_items_namemail input{
+    background-color: #383632;
+    color: aliceblue;
+}
+.form_items_phonecompany input{
+    background-color: #383632;
+    color: aliceblue;
+}
+.form_items_phonecompany{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form_item_name{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form_item_email {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.form_item_company{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    
+}
+.form_item_phone{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+.form_item_message{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+}
+.form_item_message textarea{
+    background-color: #383632;
+    color: aliceblue;
+    width: 100%;
+}
+.send_message_input{
+    align-self: center;
+    border-radius: none;
+    margin: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    color: white;
+    transition: width 0.5s;
+    transition: height 0.5s;
+}
+.send_message_input:hover{
+    width: 200px;
+    height: 65px;
+}
+.bottom_nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bottom_nav li{
+    margin: 0px 10px;
+    list-style: none;
+    display: inline-block;
+}
+.bottom_nav li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.bottom_nav li a:hover{
+    color: red;
+}
+.market_link{
+    margin-left: auto;
+}
+.market_link img{
+    max-width: 128px;
+    max-height: 64px;
+    cursor: pointer;
+}
+/* div{
+	border: solid 1px;
+	border-color: yellow;
+} */
+
